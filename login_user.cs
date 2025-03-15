@@ -98,5 +98,50 @@ namespace Assignment
 
             return status;
         }
+        public static (bool, string) forgotFind(string username, string email)
+        { 
+            bool status = false; string mess = null;
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Draft\Admin_Database.mdf;Integrated Security=True";
+
+            using(SqlConnection con = new SqlConnection(connectionString))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("select count(*) from staff where Username = @username and Email = @email", con);
+                cmd.Parameters.AddWithValue("@username", username);
+                cmd.Parameters.AddWithValue("@email", email);
+
+                int store = Convert.ToInt32(cmd.ExecuteScalar());
+                if(store != 0)
+                {
+                    status = true;
+                    mess = "The user has been found!";
+                }
+            }
+
+            return (status, mess);
+        }
+        public static bool updatePass(string username, string email, string password)
+        {
+            bool status = !true;
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Draft\Admin_Database.mdf;Integrated Security=True";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("update staff set Password = @password where Username = @username and Email = @email", con);
+                cmd.Parameters.AddWithValue("@username", username);
+                cmd.Parameters.AddWithValue("@email", email);
+                cmd.Parameters.AddWithValue("@password", password);
+
+                int store = cmd.ExecuteNonQuery();
+
+                if(store > 0)
+                {
+                    status = true;
+                }
+            }
+
+            return status;
+        }
     }
 }
