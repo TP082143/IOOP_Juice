@@ -34,73 +34,39 @@
             this.panelStaffContainer = new System.Windows.Forms.Panel();
             this.subpanelManagerContainer = new System.Windows.Forms.Panel();
             this.panelManagerAdd = new System.Windows.Forms.Panel();
-            this.btnManagerAdd = new System.Windows.Forms.Button();
             this.subPanelManager = new System.Windows.Forms.Panel();
-            this.btnStaffManager = new System.Windows.Forms.Button();
             this.panelManagerDelete = new System.Windows.Forms.Panel();
-            this.btnManagerDelete = new System.Windows.Forms.Button();
             this.panelManagerEdit = new System.Windows.Forms.Panel();
-            this.btnManagerEdit = new System.Windows.Forms.Button();
             this.subPanelChefContainer = new System.Windows.Forms.Panel();
             this.panelChefAdd = new System.Windows.Forms.Panel();
-            this.btnChefAdd = new System.Windows.Forms.Button();
             this.panelChefDelete = new System.Windows.Forms.Panel();
-            this.btnChefDelete = new System.Windows.Forms.Button();
             this.panelChefEdit = new System.Windows.Forms.Panel();
-            this.btnChefEdit = new System.Windows.Forms.Button();
             this.panelStaffChef = new System.Windows.Forms.Panel();
-            this.btnStaffChef = new System.Windows.Forms.Button();
             this.panelStaffReservationContainer = new System.Windows.Forms.Panel();
             this.panelReservationAdd = new System.Windows.Forms.Panel();
-            this.btnReservationAdd = new System.Windows.Forms.Button();
             this.panelReservationDelete = new System.Windows.Forms.Panel();
-            this.btnReservationDelete = new System.Windows.Forms.Button();
             this.panelReservationEdit = new System.Windows.Forms.Panel();
-            this.btnReservationEdit = new System.Windows.Forms.Button();
             this.panelStaffReservation = new System.Windows.Forms.Panel();
-            this.btnStaffReservation = new System.Windows.Forms.Button();
             this.panelStaffCustomerContainer = new System.Windows.Forms.Panel();
             this.panelCustomerAdd = new System.Windows.Forms.Panel();
-            this.btnCustomerAdd = new System.Windows.Forms.Button();
             this.panelCustomerDelete = new System.Windows.Forms.Panel();
-            this.btnCustomerDelete = new System.Windows.Forms.Button();
             this.panelCustomerEdit = new System.Windows.Forms.Panel();
-            this.btnCustomerEdit = new System.Windows.Forms.Button();
             this.panelStaffCustomer = new System.Windows.Forms.Panel();
-            this.btnStaffCustomer = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.picArrowStaff = new System.Windows.Forms.PictureBox();
-            this.btnStaff = new System.Windows.Forms.Button();
             this.panelSalesReport = new System.Windows.Forms.Panel();
             this.panelChef = new System.Windows.Forms.Panel();
-            this.btnChef = new System.Windows.Forms.Button();
             this.panelYear = new System.Windows.Forms.Panel();
             this.panelMonth = new System.Windows.Forms.Panel();
-            this.btnMonth = new System.Windows.Forms.Button();
             this.panelReport = new System.Windows.Forms.Panel();
-            this.picArrowSale = new System.Windows.Forms.PictureBox();
-            this.btnReport = new System.Windows.Forms.Button();
-            this.picBoxPower = new System.Windows.Forms.PictureBox();
             this.btnLogout = new System.Windows.Forms.Button();
             this.panelUpdate = new System.Windows.Forms.Panel();
             this.subPanelUpdateEmail = new System.Windows.Forms.Panel();
-            this.btnUpdateEmail = new System.Windows.Forms.Button();
             this.panelUpdateBtn = new System.Windows.Forms.Panel();
-            this.picArrowUpdate = new System.Windows.Forms.PictureBox();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.subPanelUpdatePassword = new System.Windows.Forms.Panel();
-            this.btnUpdatePassword = new System.Windows.Forms.Button();
             this.subPanelUpdateProfile = new System.Windows.Forms.Panel();
-            this.btnUpdateProfile = new System.Windows.Forms.Button();
             this.panelHome = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnHome = new System.Windows.Forms.Button();
             this.panelFeedback = new System.Windows.Forms.Panel();
-            this.btnFeed = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.picBoxSelf = new System.Windows.Forms.PictureBox();
             this.lblMenu = new System.Windows.Forms.Label();
-            this.picMenuBar = new System.Windows.Forms.PictureBox();
             this.sidePanelTimer = new System.Windows.Forms.Timer(this.components);
             this.imageArrowList = new System.Windows.Forms.ImageList(this.components);
             this.dropDownPanelStaff = new System.Windows.Forms.Timer(this.components);
@@ -108,6 +74,40 @@
             this.lblAdminWelcome = new System.Windows.Forms.Label();
             this.timerSales = new System.Windows.Forms.Timer(this.components);
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btnManagerAdd = new System.Windows.Forms.Button();
+            this.btnStaffManager = new System.Windows.Forms.Button();
+            this.btnManagerDelete = new System.Windows.Forms.Button();
+            this.btnManagerEdit = new System.Windows.Forms.Button();
+            this.btnChefAdd = new System.Windows.Forms.Button();
+            this.btnChefDelete = new System.Windows.Forms.Button();
+            this.btnChefEdit = new System.Windows.Forms.Button();
+            this.btnStaffChef = new System.Windows.Forms.Button();
+            this.btnReservationAdd = new System.Windows.Forms.Button();
+            this.btnReservationDelete = new System.Windows.Forms.Button();
+            this.btnReservationEdit = new System.Windows.Forms.Button();
+            this.btnStaffReservation = new System.Windows.Forms.Button();
+            this.btnCustomerAdd = new System.Windows.Forms.Button();
+            this.btnCustomerDelete = new System.Windows.Forms.Button();
+            this.btnCustomerEdit = new System.Windows.Forms.Button();
+            this.btnStaffCustomer = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.picArrowStaff = new System.Windows.Forms.PictureBox();
+            this.btnStaff = new System.Windows.Forms.Button();
+            this.btnChef = new System.Windows.Forms.Button();
+            this.btnMonth = new System.Windows.Forms.Button();
+            this.picArrowSale = new System.Windows.Forms.PictureBox();
+            this.btnReport = new System.Windows.Forms.Button();
+            this.picBoxPower = new System.Windows.Forms.PictureBox();
+            this.btnUpdateEmail = new System.Windows.Forms.Button();
+            this.picArrowUpdate = new System.Windows.Forms.PictureBox();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnUpdatePassword = new System.Windows.Forms.Button();
+            this.btnUpdateProfile = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnHome = new System.Windows.Forms.Button();
+            this.btnFeed = new System.Windows.Forms.Button();
+            this.picBoxSelf = new System.Windows.Forms.PictureBox();
+            this.picMenuBar = new System.Windows.Forms.PictureBox();
             this.sidePanel.SuspendLayout();
             this.panelStaffContainer.SuspendLayout();
             this.subpanelManagerContainer.SuspendLayout();
@@ -130,27 +130,27 @@
             this.panelCustomerDelete.SuspendLayout();
             this.panelCustomerEdit.SuspendLayout();
             this.panelStaffCustomer.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picArrowStaff)).BeginInit();
             this.panelSalesReport.SuspendLayout();
             this.panelChef.SuspendLayout();
             this.panelMonth.SuspendLayout();
             this.panelReport.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picArrowSale)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxPower)).BeginInit();
             this.panelUpdate.SuspendLayout();
             this.subPanelUpdateEmail.SuspendLayout();
             this.panelUpdateBtn.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picArrowUpdate)).BeginInit();
             this.subPanelUpdatePassword.SuspendLayout();
             this.subPanelUpdateProfile.SuspendLayout();
             this.panelHome.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelFeedback.SuspendLayout();
             this.panelMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picArrowStaff)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picArrowSale)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxPower)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picArrowUpdate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxSelf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMenuBar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // sidePanel
@@ -214,24 +214,6 @@
             this.panelManagerAdd.Size = new System.Drawing.Size(320, 41);
             this.panelManagerAdd.TabIndex = 8;
             // 
-            // btnManagerAdd
-            // 
-            this.btnManagerAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
-            this.btnManagerAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnManagerAdd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnManagerAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnManagerAdd.Image = global::Assignment.Properties.Resources.highpen_01;
-            this.btnManagerAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnManagerAdd.Location = new System.Drawing.Point(0, -20);
-            this.btnManagerAdd.Margin = new System.Windows.Forms.Padding(4);
-            this.btnManagerAdd.Name = "btnManagerAdd";
-            this.btnManagerAdd.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnManagerAdd.Size = new System.Drawing.Size(343, 78);
-            this.btnManagerAdd.TabIndex = 5;
-            this.btnManagerAdd.Text = "                   Add";
-            this.btnManagerAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnManagerAdd.UseVisualStyleBackColor = false;
-            // 
             // subPanelManager
             // 
             this.subPanelManager.Controls.Add(this.btnStaffManager);
@@ -240,25 +222,6 @@
             this.subPanelManager.Name = "subPanelManager";
             this.subPanelManager.Size = new System.Drawing.Size(308, 41);
             this.subPanelManager.TabIndex = 7;
-            // 
-            // btnStaffManager
-            // 
-            this.btnStaffManager.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
-            this.btnStaffManager.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStaffManager.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStaffManager.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnStaffManager.Image = global::Assignment.Properties.Resources.dot_012;
-            this.btnStaffManager.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStaffManager.Location = new System.Drawing.Point(-15, -18);
-            this.btnStaffManager.Margin = new System.Windows.Forms.Padding(4);
-            this.btnStaffManager.Name = "btnStaffManager";
-            this.btnStaffManager.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnStaffManager.Size = new System.Drawing.Size(343, 78);
-            this.btnStaffManager.TabIndex = 5;
-            this.btnStaffManager.Text = "                   Manager";
-            this.btnStaffManager.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStaffManager.UseVisualStyleBackColor = false;
-            this.btnStaffManager.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // panelManagerDelete
             // 
@@ -269,24 +232,6 @@
             this.panelManagerDelete.Size = new System.Drawing.Size(320, 41);
             this.panelManagerDelete.TabIndex = 9;
             // 
-            // btnManagerDelete
-            // 
-            this.btnManagerDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
-            this.btnManagerDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnManagerDelete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnManagerDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnManagerDelete.Image = global::Assignment.Properties.Resources.highpen_01;
-            this.btnManagerDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnManagerDelete.Location = new System.Drawing.Point(0, -20);
-            this.btnManagerDelete.Margin = new System.Windows.Forms.Padding(4);
-            this.btnManagerDelete.Name = "btnManagerDelete";
-            this.btnManagerDelete.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnManagerDelete.Size = new System.Drawing.Size(343, 78);
-            this.btnManagerDelete.TabIndex = 5;
-            this.btnManagerDelete.Text = "                   Delete";
-            this.btnManagerDelete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnManagerDelete.UseVisualStyleBackColor = false;
-            // 
             // panelManagerEdit
             // 
             this.panelManagerEdit.Controls.Add(this.btnManagerEdit);
@@ -295,24 +240,6 @@
             this.panelManagerEdit.Name = "panelManagerEdit";
             this.panelManagerEdit.Size = new System.Drawing.Size(320, 41);
             this.panelManagerEdit.TabIndex = 9;
-            // 
-            // btnManagerEdit
-            // 
-            this.btnManagerEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
-            this.btnManagerEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnManagerEdit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnManagerEdit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnManagerEdit.Image = global::Assignment.Properties.Resources.highpen_01;
-            this.btnManagerEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnManagerEdit.Location = new System.Drawing.Point(0, -20);
-            this.btnManagerEdit.Margin = new System.Windows.Forms.Padding(4);
-            this.btnManagerEdit.Name = "btnManagerEdit";
-            this.btnManagerEdit.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnManagerEdit.Size = new System.Drawing.Size(343, 78);
-            this.btnManagerEdit.TabIndex = 5;
-            this.btnManagerEdit.Text = "                   Edit";
-            this.btnManagerEdit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnManagerEdit.UseVisualStyleBackColor = false;
             // 
             // subPanelChefContainer
             // 
@@ -337,24 +264,6 @@
             this.panelChefAdd.Size = new System.Drawing.Size(328, 41);
             this.panelChefAdd.TabIndex = 8;
             // 
-            // btnChefAdd
-            // 
-            this.btnChefAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
-            this.btnChefAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChefAdd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChefAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnChefAdd.Image = global::Assignment.Properties.Resources.highpen_01;
-            this.btnChefAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChefAdd.Location = new System.Drawing.Point(0, -20);
-            this.btnChefAdd.Margin = new System.Windows.Forms.Padding(4);
-            this.btnChefAdd.Name = "btnChefAdd";
-            this.btnChefAdd.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnChefAdd.Size = new System.Drawing.Size(343, 78);
-            this.btnChefAdd.TabIndex = 5;
-            this.btnChefAdd.Text = "                   Add";
-            this.btnChefAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChefAdd.UseVisualStyleBackColor = false;
-            // 
             // panelChefDelete
             // 
             this.panelChefDelete.Controls.Add(this.btnChefDelete);
@@ -363,24 +272,6 @@
             this.panelChefDelete.Name = "panelChefDelete";
             this.panelChefDelete.Size = new System.Drawing.Size(320, 41);
             this.panelChefDelete.TabIndex = 9;
-            // 
-            // btnChefDelete
-            // 
-            this.btnChefDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
-            this.btnChefDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChefDelete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChefDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnChefDelete.Image = global::Assignment.Properties.Resources.highpen_01;
-            this.btnChefDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChefDelete.Location = new System.Drawing.Point(0, -20);
-            this.btnChefDelete.Margin = new System.Windows.Forms.Padding(4);
-            this.btnChefDelete.Name = "btnChefDelete";
-            this.btnChefDelete.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnChefDelete.Size = new System.Drawing.Size(343, 78);
-            this.btnChefDelete.TabIndex = 5;
-            this.btnChefDelete.Text = "                   Delete";
-            this.btnChefDelete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChefDelete.UseVisualStyleBackColor = false;
             // 
             // panelChefEdit
             // 
@@ -391,24 +282,6 @@
             this.panelChefEdit.Size = new System.Drawing.Size(324, 41);
             this.panelChefEdit.TabIndex = 9;
             // 
-            // btnChefEdit
-            // 
-            this.btnChefEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
-            this.btnChefEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChefEdit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChefEdit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnChefEdit.Image = global::Assignment.Properties.Resources.highpen_01;
-            this.btnChefEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChefEdit.Location = new System.Drawing.Point(0, -20);
-            this.btnChefEdit.Margin = new System.Windows.Forms.Padding(4);
-            this.btnChefEdit.Name = "btnChefEdit";
-            this.btnChefEdit.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnChefEdit.Size = new System.Drawing.Size(343, 78);
-            this.btnChefEdit.TabIndex = 5;
-            this.btnChefEdit.Text = "                   Edit";
-            this.btnChefEdit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChefEdit.UseVisualStyleBackColor = false;
-            // 
             // panelStaffChef
             // 
             this.panelStaffChef.Controls.Add(this.btnStaffChef);
@@ -417,25 +290,6 @@
             this.panelStaffChef.Name = "panelStaffChef";
             this.panelStaffChef.Size = new System.Drawing.Size(308, 41);
             this.panelStaffChef.TabIndex = 8;
-            // 
-            // btnStaffChef
-            // 
-            this.btnStaffChef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
-            this.btnStaffChef.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStaffChef.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStaffChef.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnStaffChef.Image = global::Assignment.Properties.Resources.dot_012;
-            this.btnStaffChef.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStaffChef.Location = new System.Drawing.Point(-15, -20);
-            this.btnStaffChef.Margin = new System.Windows.Forms.Padding(4);
-            this.btnStaffChef.Name = "btnStaffChef";
-            this.btnStaffChef.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnStaffChef.Size = new System.Drawing.Size(343, 78);
-            this.btnStaffChef.TabIndex = 5;
-            this.btnStaffChef.Text = "                   Chef";
-            this.btnStaffChef.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStaffChef.UseVisualStyleBackColor = false;
-            this.btnStaffChef.Click += new System.EventHandler(this.btnStaffChef_Click);
             // 
             // panelStaffReservationContainer
             // 
@@ -460,24 +314,6 @@
             this.panelReservationAdd.Size = new System.Drawing.Size(316, 41);
             this.panelReservationAdd.TabIndex = 8;
             // 
-            // btnReservationAdd
-            // 
-            this.btnReservationAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
-            this.btnReservationAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReservationAdd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReservationAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnReservationAdd.Image = global::Assignment.Properties.Resources.highpen_01;
-            this.btnReservationAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReservationAdd.Location = new System.Drawing.Point(0, -20);
-            this.btnReservationAdd.Margin = new System.Windows.Forms.Padding(4);
-            this.btnReservationAdd.Name = "btnReservationAdd";
-            this.btnReservationAdd.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnReservationAdd.Size = new System.Drawing.Size(343, 78);
-            this.btnReservationAdd.TabIndex = 5;
-            this.btnReservationAdd.Text = "                   Add";
-            this.btnReservationAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReservationAdd.UseVisualStyleBackColor = false;
-            // 
             // panelReservationDelete
             // 
             this.panelReservationDelete.Controls.Add(this.btnReservationDelete);
@@ -486,24 +322,6 @@
             this.panelReservationDelete.Name = "panelReservationDelete";
             this.panelReservationDelete.Size = new System.Drawing.Size(316, 41);
             this.panelReservationDelete.TabIndex = 9;
-            // 
-            // btnReservationDelete
-            // 
-            this.btnReservationDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
-            this.btnReservationDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReservationDelete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReservationDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnReservationDelete.Image = global::Assignment.Properties.Resources.highpen_01;
-            this.btnReservationDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReservationDelete.Location = new System.Drawing.Point(0, -20);
-            this.btnReservationDelete.Margin = new System.Windows.Forms.Padding(4);
-            this.btnReservationDelete.Name = "btnReservationDelete";
-            this.btnReservationDelete.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnReservationDelete.Size = new System.Drawing.Size(343, 78);
-            this.btnReservationDelete.TabIndex = 5;
-            this.btnReservationDelete.Text = "                   Delete";
-            this.btnReservationDelete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReservationDelete.UseVisualStyleBackColor = false;
             // 
             // panelReservationEdit
             // 
@@ -514,24 +332,6 @@
             this.panelReservationEdit.Size = new System.Drawing.Size(316, 41);
             this.panelReservationEdit.TabIndex = 9;
             // 
-            // btnReservationEdit
-            // 
-            this.btnReservationEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
-            this.btnReservationEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReservationEdit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReservationEdit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnReservationEdit.Image = global::Assignment.Properties.Resources.highpen_01;
-            this.btnReservationEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReservationEdit.Location = new System.Drawing.Point(0, -20);
-            this.btnReservationEdit.Margin = new System.Windows.Forms.Padding(4);
-            this.btnReservationEdit.Name = "btnReservationEdit";
-            this.btnReservationEdit.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnReservationEdit.Size = new System.Drawing.Size(343, 78);
-            this.btnReservationEdit.TabIndex = 5;
-            this.btnReservationEdit.Text = "                   Edit";
-            this.btnReservationEdit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReservationEdit.UseVisualStyleBackColor = false;
-            // 
             // panelStaffReservation
             // 
             this.panelStaffReservation.Controls.Add(this.btnStaffReservation);
@@ -540,25 +340,6 @@
             this.panelStaffReservation.Name = "panelStaffReservation";
             this.panelStaffReservation.Size = new System.Drawing.Size(308, 41);
             this.panelStaffReservation.TabIndex = 9;
-            // 
-            // btnStaffReservation
-            // 
-            this.btnStaffReservation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
-            this.btnStaffReservation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStaffReservation.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStaffReservation.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnStaffReservation.Image = global::Assignment.Properties.Resources.dot_012;
-            this.btnStaffReservation.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStaffReservation.Location = new System.Drawing.Point(-15, -20);
-            this.btnStaffReservation.Margin = new System.Windows.Forms.Padding(4);
-            this.btnStaffReservation.Name = "btnStaffReservation";
-            this.btnStaffReservation.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnStaffReservation.Size = new System.Drawing.Size(343, 78);
-            this.btnStaffReservation.TabIndex = 5;
-            this.btnStaffReservation.Text = "                   Reservation Co.";
-            this.btnStaffReservation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStaffReservation.UseVisualStyleBackColor = false;
-            this.btnStaffReservation.Click += new System.EventHandler(this.btnStaffReservation_Click);
             // 
             // panelStaffCustomerContainer
             // 
@@ -583,6 +364,462 @@
             this.panelCustomerAdd.Size = new System.Drawing.Size(316, 41);
             this.panelCustomerAdd.TabIndex = 8;
             // 
+            // panelCustomerDelete
+            // 
+            this.panelCustomerDelete.Controls.Add(this.btnCustomerDelete);
+            this.panelCustomerDelete.Location = new System.Drawing.Point(-1, 122);
+            this.panelCustomerDelete.Margin = new System.Windows.Forms.Padding(4);
+            this.panelCustomerDelete.Name = "panelCustomerDelete";
+            this.panelCustomerDelete.Size = new System.Drawing.Size(316, 41);
+            this.panelCustomerDelete.TabIndex = 9;
+            // 
+            // panelCustomerEdit
+            // 
+            this.panelCustomerEdit.Controls.Add(this.btnCustomerEdit);
+            this.panelCustomerEdit.Location = new System.Drawing.Point(-1, 81);
+            this.panelCustomerEdit.Margin = new System.Windows.Forms.Padding(4);
+            this.panelCustomerEdit.Name = "panelCustomerEdit";
+            this.panelCustomerEdit.Size = new System.Drawing.Size(316, 41);
+            this.panelCustomerEdit.TabIndex = 9;
+            // 
+            // panelStaffCustomer
+            // 
+            this.panelStaffCustomer.Controls.Add(this.btnStaffCustomer);
+            this.panelStaffCustomer.Controls.Add(this.pictureBox2);
+            this.panelStaffCustomer.Location = new System.Drawing.Point(0, 0);
+            this.panelStaffCustomer.Margin = new System.Windows.Forms.Padding(4);
+            this.panelStaffCustomer.Name = "panelStaffCustomer";
+            this.panelStaffCustomer.Size = new System.Drawing.Size(308, 41);
+            this.panelStaffCustomer.TabIndex = 8;
+            // 
+            // panelSalesReport
+            // 
+            this.panelSalesReport.Controls.Add(this.panelChef);
+            this.panelSalesReport.Controls.Add(this.panelYear);
+            this.panelSalesReport.Controls.Add(this.panelMonth);
+            this.panelSalesReport.Controls.Add(this.panelReport);
+            this.panelSalesReport.Location = new System.Drawing.Point(-1, 238);
+            this.panelSalesReport.Margin = new System.Windows.Forms.Padding(4);
+            this.panelSalesReport.MaximumSize = new System.Drawing.Size(309, 174);
+            this.panelSalesReport.MinimumSize = new System.Drawing.Size(309, 52);
+            this.panelSalesReport.Name = "panelSalesReport";
+            this.panelSalesReport.Size = new System.Drawing.Size(309, 52);
+            this.panelSalesReport.TabIndex = 10;
+            // 
+            // panelChef
+            // 
+            this.panelChef.Controls.Add(this.btnChef);
+            this.panelChef.Location = new System.Drawing.Point(0, 94);
+            this.panelChef.Margin = new System.Windows.Forms.Padding(4);
+            this.panelChef.Name = "panelChef";
+            this.panelChef.Size = new System.Drawing.Size(309, 41);
+            this.panelChef.TabIndex = 16;
+            // 
+            // panelYear
+            // 
+            this.panelYear.Location = new System.Drawing.Point(0, 92);
+            this.panelYear.Margin = new System.Windows.Forms.Padding(4);
+            this.panelYear.Name = "panelYear";
+            this.panelYear.Size = new System.Drawing.Size(309, 41);
+            this.panelYear.TabIndex = 8;
+            // 
+            // panelMonth
+            // 
+            this.panelMonth.Controls.Add(this.btnMonth);
+            this.panelMonth.Location = new System.Drawing.Point(0, 52);
+            this.panelMonth.Margin = new System.Windows.Forms.Padding(4);
+            this.panelMonth.Name = "panelMonth";
+            this.panelMonth.Size = new System.Drawing.Size(309, 41);
+            this.panelMonth.TabIndex = 7;
+            // 
+            // panelReport
+            // 
+            this.panelReport.Controls.Add(this.picArrowSale);
+            this.panelReport.Controls.Add(this.btnReport);
+            this.panelReport.Location = new System.Drawing.Point(0, 0);
+            this.panelReport.Margin = new System.Windows.Forms.Padding(4);
+            this.panelReport.Name = "panelReport";
+            this.panelReport.Size = new System.Drawing.Size(309, 52);
+            this.panelReport.TabIndex = 6;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
+            this.btnLogout.Location = new System.Drawing.Point(117, 651);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(141, 38);
+            this.btnLogout.TabIndex = 2;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // panelUpdate
+            // 
+            this.panelUpdate.Controls.Add(this.subPanelUpdateEmail);
+            this.panelUpdate.Controls.Add(this.panelUpdateBtn);
+            this.panelUpdate.Controls.Add(this.subPanelUpdatePassword);
+            this.panelUpdate.Controls.Add(this.subPanelUpdateProfile);
+            this.panelUpdate.Location = new System.Drawing.Point(0, 353);
+            this.panelUpdate.Margin = new System.Windows.Forms.Padding(4);
+            this.panelUpdate.MaximumSize = new System.Drawing.Size(308, 174);
+            this.panelUpdate.MinimumSize = new System.Drawing.Size(308, 52);
+            this.panelUpdate.Name = "panelUpdate";
+            this.panelUpdate.Size = new System.Drawing.Size(308, 52);
+            this.panelUpdate.TabIndex = 7;
+            // 
+            // subPanelUpdateEmail
+            // 
+            this.subPanelUpdateEmail.Controls.Add(this.btnUpdateEmail);
+            this.subPanelUpdateEmail.Location = new System.Drawing.Point(0, 133);
+            this.subPanelUpdateEmail.Margin = new System.Windows.Forms.Padding(4);
+            this.subPanelUpdateEmail.Name = "subPanelUpdateEmail";
+            this.subPanelUpdateEmail.Size = new System.Drawing.Size(308, 41);
+            this.subPanelUpdateEmail.TabIndex = 9;
+            // 
+            // panelUpdateBtn
+            // 
+            this.panelUpdateBtn.Controls.Add(this.picArrowUpdate);
+            this.panelUpdateBtn.Controls.Add(this.btnUpdate);
+            this.panelUpdateBtn.Location = new System.Drawing.Point(0, 0);
+            this.panelUpdateBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.panelUpdateBtn.MinimumSize = new System.Drawing.Size(308, 52);
+            this.panelUpdateBtn.Name = "panelUpdateBtn";
+            this.panelUpdateBtn.Size = new System.Drawing.Size(308, 52);
+            this.panelUpdateBtn.TabIndex = 15;
+            // 
+            // subPanelUpdatePassword
+            // 
+            this.subPanelUpdatePassword.Controls.Add(this.btnUpdatePassword);
+            this.subPanelUpdatePassword.Location = new System.Drawing.Point(0, 92);
+            this.subPanelUpdatePassword.Margin = new System.Windows.Forms.Padding(4);
+            this.subPanelUpdatePassword.Name = "subPanelUpdatePassword";
+            this.subPanelUpdatePassword.Size = new System.Drawing.Size(308, 41);
+            this.subPanelUpdatePassword.TabIndex = 8;
+            // 
+            // subPanelUpdateProfile
+            // 
+            this.subPanelUpdateProfile.Controls.Add(this.btnUpdateProfile);
+            this.subPanelUpdateProfile.Location = new System.Drawing.Point(0, 52);
+            this.subPanelUpdateProfile.Margin = new System.Windows.Forms.Padding(4);
+            this.subPanelUpdateProfile.Name = "subPanelUpdateProfile";
+            this.subPanelUpdateProfile.Size = new System.Drawing.Size(308, 41);
+            this.subPanelUpdateProfile.TabIndex = 7;
+            // 
+            // panelHome
+            // 
+            this.panelHome.Controls.Add(this.pictureBox1);
+            this.panelHome.Controls.Add(this.btnHome);
+            this.panelHome.Location = new System.Drawing.Point(-1, 124);
+            this.panelHome.Margin = new System.Windows.Forms.Padding(4);
+            this.panelHome.Name = "panelHome";
+            this.panelHome.Size = new System.Drawing.Size(313, 52);
+            this.panelHome.TabIndex = 4;
+            // 
+            // panelFeedback
+            // 
+            this.panelFeedback.Controls.Add(this.btnFeed);
+            this.panelFeedback.Location = new System.Drawing.Point(0, 297);
+            this.panelFeedback.Margin = new System.Windows.Forms.Padding(4);
+            this.panelFeedback.Name = "panelFeedback";
+            this.panelFeedback.Size = new System.Drawing.Size(312, 52);
+            this.panelFeedback.TabIndex = 6;
+            // 
+            // panelMenu
+            // 
+            this.panelMenu.Controls.Add(this.picBoxSelf);
+            this.panelMenu.Controls.Add(this.lblMenu);
+            this.panelMenu.Controls.Add(this.picMenuBar);
+            this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(312, 113);
+            this.panelMenu.TabIndex = 3;
+            // 
+            // lblMenu
+            // 
+            this.lblMenu.AutoSize = true;
+            this.lblMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
+            this.lblMenu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMenu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblMenu.Location = new System.Drawing.Point(112, 44);
+            this.lblMenu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMenu.Name = "lblMenu";
+            this.lblMenu.Size = new System.Drawing.Size(62, 28);
+            this.lblMenu.TabIndex = 3;
+            this.lblMenu.Text = "Menu";
+            // 
+            // sidePanelTimer
+            // 
+            this.sidePanelTimer.Interval = 15;
+            this.sidePanelTimer.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // imageArrowList
+            // 
+            this.imageArrowList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageArrowList.ImageStream")));
+            this.imageArrowList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageArrowList.Images.SetKeyName(0, "arrow down-01.png");
+            this.imageArrowList.Images.SetKeyName(1, "arrow up-01.png");
+            // 
+            // dropDownPanelStaff
+            // 
+            this.dropDownPanelStaff.Interval = 15;
+            this.dropDownPanelStaff.Tick += new System.EventHandler(this.dropDownPanelStaff_Tick);
+            // 
+            // timerUpdate
+            // 
+            this.timerUpdate.Interval = 25;
+            this.timerUpdate.Tick += new System.EventHandler(this.timerUpdate_Tick);
+            // 
+            // lblAdminWelcome
+            // 
+            this.lblAdminWelcome.AutoSize = true;
+            this.lblAdminWelcome.Font = new System.Drawing.Font("Britannic Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdminWelcome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
+            this.lblAdminWelcome.Location = new System.Drawing.Point(508, 537);
+            this.lblAdminWelcome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAdminWelcome.Name = "lblAdminWelcome";
+            this.lblAdminWelcome.Size = new System.Drawing.Size(0, 67);
+            this.lblAdminWelcome.TabIndex = 3;
+            this.lblAdminWelcome.Click += new System.EventHandler(this.lblAdminWelcome_Click);
+            // 
+            // timerSales
+            // 
+            this.timerSales.Interval = 25;
+            this.timerSales.Tick += new System.EventHandler(this.timerSales_Tick);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
+            this.pictureBox4.Image = global::Assignment.Properties.Resources.FOODIEPOINT_01;
+            this.pictureBox4.Location = new System.Drawing.Point(535, 98);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(435, 394);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 11;
+            this.pictureBox4.TabStop = false;
+            // 
+            // btnManagerAdd
+            // 
+            this.btnManagerAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
+            this.btnManagerAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnManagerAdd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManagerAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnManagerAdd.Image = global::Assignment.Properties.Resources.highpen_01;
+            this.btnManagerAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnManagerAdd.Location = new System.Drawing.Point(0, -20);
+            this.btnManagerAdd.Margin = new System.Windows.Forms.Padding(4);
+            this.btnManagerAdd.Name = "btnManagerAdd";
+            this.btnManagerAdd.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnManagerAdd.Size = new System.Drawing.Size(343, 78);
+            this.btnManagerAdd.TabIndex = 5;
+            this.btnManagerAdd.Text = "                   Add";
+            this.btnManagerAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnManagerAdd.UseVisualStyleBackColor = false;
+            // 
+            // btnStaffManager
+            // 
+            this.btnStaffManager.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
+            this.btnStaffManager.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStaffManager.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStaffManager.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnStaffManager.Image = global::Assignment.Properties.Resources.dot_012;
+            this.btnStaffManager.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStaffManager.Location = new System.Drawing.Point(-15, -18);
+            this.btnStaffManager.Margin = new System.Windows.Forms.Padding(4);
+            this.btnStaffManager.Name = "btnStaffManager";
+            this.btnStaffManager.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnStaffManager.Size = new System.Drawing.Size(343, 78);
+            this.btnStaffManager.TabIndex = 5;
+            this.btnStaffManager.Text = "                   Manager";
+            this.btnStaffManager.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStaffManager.UseVisualStyleBackColor = false;
+            this.btnStaffManager.Click += new System.EventHandler(this.button1_Click_2);
+            // 
+            // btnManagerDelete
+            // 
+            this.btnManagerDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
+            this.btnManagerDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnManagerDelete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManagerDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnManagerDelete.Image = global::Assignment.Properties.Resources.highpen_01;
+            this.btnManagerDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnManagerDelete.Location = new System.Drawing.Point(0, -20);
+            this.btnManagerDelete.Margin = new System.Windows.Forms.Padding(4);
+            this.btnManagerDelete.Name = "btnManagerDelete";
+            this.btnManagerDelete.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnManagerDelete.Size = new System.Drawing.Size(343, 78);
+            this.btnManagerDelete.TabIndex = 5;
+            this.btnManagerDelete.Text = "                   Delete";
+            this.btnManagerDelete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnManagerDelete.UseVisualStyleBackColor = false;
+            // 
+            // btnManagerEdit
+            // 
+            this.btnManagerEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
+            this.btnManagerEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnManagerEdit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManagerEdit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnManagerEdit.Image = global::Assignment.Properties.Resources.highpen_01;
+            this.btnManagerEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnManagerEdit.Location = new System.Drawing.Point(0, -20);
+            this.btnManagerEdit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnManagerEdit.Name = "btnManagerEdit";
+            this.btnManagerEdit.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnManagerEdit.Size = new System.Drawing.Size(343, 78);
+            this.btnManagerEdit.TabIndex = 5;
+            this.btnManagerEdit.Text = "                   Edit";
+            this.btnManagerEdit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnManagerEdit.UseVisualStyleBackColor = false;
+            // 
+            // btnChefAdd
+            // 
+            this.btnChefAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
+            this.btnChefAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChefAdd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChefAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnChefAdd.Image = global::Assignment.Properties.Resources.highpen_01;
+            this.btnChefAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnChefAdd.Location = new System.Drawing.Point(0, -20);
+            this.btnChefAdd.Margin = new System.Windows.Forms.Padding(4);
+            this.btnChefAdd.Name = "btnChefAdd";
+            this.btnChefAdd.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnChefAdd.Size = new System.Drawing.Size(343, 78);
+            this.btnChefAdd.TabIndex = 5;
+            this.btnChefAdd.Text = "                   Add";
+            this.btnChefAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnChefAdd.UseVisualStyleBackColor = false;
+            // 
+            // btnChefDelete
+            // 
+            this.btnChefDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
+            this.btnChefDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChefDelete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChefDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnChefDelete.Image = global::Assignment.Properties.Resources.highpen_01;
+            this.btnChefDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnChefDelete.Location = new System.Drawing.Point(0, -20);
+            this.btnChefDelete.Margin = new System.Windows.Forms.Padding(4);
+            this.btnChefDelete.Name = "btnChefDelete";
+            this.btnChefDelete.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnChefDelete.Size = new System.Drawing.Size(343, 78);
+            this.btnChefDelete.TabIndex = 5;
+            this.btnChefDelete.Text = "                   Delete";
+            this.btnChefDelete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnChefDelete.UseVisualStyleBackColor = false;
+            // 
+            // btnChefEdit
+            // 
+            this.btnChefEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
+            this.btnChefEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChefEdit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChefEdit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnChefEdit.Image = global::Assignment.Properties.Resources.highpen_01;
+            this.btnChefEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnChefEdit.Location = new System.Drawing.Point(0, -20);
+            this.btnChefEdit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnChefEdit.Name = "btnChefEdit";
+            this.btnChefEdit.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnChefEdit.Size = new System.Drawing.Size(343, 78);
+            this.btnChefEdit.TabIndex = 5;
+            this.btnChefEdit.Text = "                   Edit";
+            this.btnChefEdit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnChefEdit.UseVisualStyleBackColor = false;
+            // 
+            // btnStaffChef
+            // 
+            this.btnStaffChef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
+            this.btnStaffChef.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStaffChef.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStaffChef.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnStaffChef.Image = global::Assignment.Properties.Resources.dot_012;
+            this.btnStaffChef.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStaffChef.Location = new System.Drawing.Point(-15, -20);
+            this.btnStaffChef.Margin = new System.Windows.Forms.Padding(4);
+            this.btnStaffChef.Name = "btnStaffChef";
+            this.btnStaffChef.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnStaffChef.Size = new System.Drawing.Size(343, 78);
+            this.btnStaffChef.TabIndex = 5;
+            this.btnStaffChef.Text = "                   Chef";
+            this.btnStaffChef.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStaffChef.UseVisualStyleBackColor = false;
+            this.btnStaffChef.Click += new System.EventHandler(this.btnStaffChef_Click);
+            // 
+            // btnReservationAdd
+            // 
+            this.btnReservationAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
+            this.btnReservationAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReservationAdd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReservationAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnReservationAdd.Image = global::Assignment.Properties.Resources.highpen_01;
+            this.btnReservationAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReservationAdd.Location = new System.Drawing.Point(0, -20);
+            this.btnReservationAdd.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReservationAdd.Name = "btnReservationAdd";
+            this.btnReservationAdd.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnReservationAdd.Size = new System.Drawing.Size(343, 78);
+            this.btnReservationAdd.TabIndex = 5;
+            this.btnReservationAdd.Text = "                   Add";
+            this.btnReservationAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReservationAdd.UseVisualStyleBackColor = false;
+            // 
+            // btnReservationDelete
+            // 
+            this.btnReservationDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
+            this.btnReservationDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReservationDelete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReservationDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnReservationDelete.Image = global::Assignment.Properties.Resources.highpen_01;
+            this.btnReservationDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReservationDelete.Location = new System.Drawing.Point(0, -20);
+            this.btnReservationDelete.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReservationDelete.Name = "btnReservationDelete";
+            this.btnReservationDelete.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnReservationDelete.Size = new System.Drawing.Size(343, 78);
+            this.btnReservationDelete.TabIndex = 5;
+            this.btnReservationDelete.Text = "                   Delete";
+            this.btnReservationDelete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReservationDelete.UseVisualStyleBackColor = false;
+            // 
+            // btnReservationEdit
+            // 
+            this.btnReservationEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
+            this.btnReservationEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReservationEdit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReservationEdit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnReservationEdit.Image = global::Assignment.Properties.Resources.highpen_01;
+            this.btnReservationEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReservationEdit.Location = new System.Drawing.Point(0, -20);
+            this.btnReservationEdit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReservationEdit.Name = "btnReservationEdit";
+            this.btnReservationEdit.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnReservationEdit.Size = new System.Drawing.Size(343, 78);
+            this.btnReservationEdit.TabIndex = 5;
+            this.btnReservationEdit.Text = "                   Edit";
+            this.btnReservationEdit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReservationEdit.UseVisualStyleBackColor = false;
+            // 
+            // btnStaffReservation
+            // 
+            this.btnStaffReservation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
+            this.btnStaffReservation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStaffReservation.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStaffReservation.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnStaffReservation.Image = global::Assignment.Properties.Resources.dot_012;
+            this.btnStaffReservation.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStaffReservation.Location = new System.Drawing.Point(-15, -20);
+            this.btnStaffReservation.Margin = new System.Windows.Forms.Padding(4);
+            this.btnStaffReservation.Name = "btnStaffReservation";
+            this.btnStaffReservation.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnStaffReservation.Size = new System.Drawing.Size(343, 78);
+            this.btnStaffReservation.TabIndex = 5;
+            this.btnStaffReservation.Text = "                   Reservation Co.";
+            this.btnStaffReservation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStaffReservation.UseVisualStyleBackColor = false;
+            this.btnStaffReservation.Click += new System.EventHandler(this.btnStaffReservation_Click);
+            // 
             // btnCustomerAdd
             // 
             this.btnCustomerAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
@@ -600,15 +837,6 @@
             this.btnCustomerAdd.Text = "                   Add";
             this.btnCustomerAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCustomerAdd.UseVisualStyleBackColor = false;
-            // 
-            // panelCustomerDelete
-            // 
-            this.panelCustomerDelete.Controls.Add(this.btnCustomerDelete);
-            this.panelCustomerDelete.Location = new System.Drawing.Point(-1, 122);
-            this.panelCustomerDelete.Margin = new System.Windows.Forms.Padding(4);
-            this.panelCustomerDelete.Name = "panelCustomerDelete";
-            this.panelCustomerDelete.Size = new System.Drawing.Size(316, 41);
-            this.panelCustomerDelete.TabIndex = 9;
             // 
             // btnCustomerDelete
             // 
@@ -628,15 +856,6 @@
             this.btnCustomerDelete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCustomerDelete.UseVisualStyleBackColor = false;
             // 
-            // panelCustomerEdit
-            // 
-            this.panelCustomerEdit.Controls.Add(this.btnCustomerEdit);
-            this.panelCustomerEdit.Location = new System.Drawing.Point(-1, 81);
-            this.panelCustomerEdit.Margin = new System.Windows.Forms.Padding(4);
-            this.panelCustomerEdit.Name = "panelCustomerEdit";
-            this.panelCustomerEdit.Size = new System.Drawing.Size(316, 41);
-            this.panelCustomerEdit.TabIndex = 9;
-            // 
             // btnCustomerEdit
             // 
             this.btnCustomerEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(72)))), ((int)(((byte)(73)))));
@@ -654,16 +873,6 @@
             this.btnCustomerEdit.Text = "                   Edit";
             this.btnCustomerEdit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCustomerEdit.UseVisualStyleBackColor = false;
-            // 
-            // panelStaffCustomer
-            // 
-            this.panelStaffCustomer.Controls.Add(this.btnStaffCustomer);
-            this.panelStaffCustomer.Controls.Add(this.pictureBox2);
-            this.panelStaffCustomer.Location = new System.Drawing.Point(0, 0);
-            this.panelStaffCustomer.Margin = new System.Windows.Forms.Padding(4);
-            this.panelStaffCustomer.Name = "panelStaffCustomer";
-            this.panelStaffCustomer.Size = new System.Drawing.Size(308, 41);
-            this.panelStaffCustomer.TabIndex = 8;
             // 
             // btnStaffCustomer
             // 
@@ -730,29 +939,6 @@
             this.btnStaff.UseVisualStyleBackColor = false;
             this.btnStaff.Click += new System.EventHandler(this.btnStaff_Click);
             // 
-            // panelSalesReport
-            // 
-            this.panelSalesReport.Controls.Add(this.panelChef);
-            this.panelSalesReport.Controls.Add(this.panelYear);
-            this.panelSalesReport.Controls.Add(this.panelMonth);
-            this.panelSalesReport.Controls.Add(this.panelReport);
-            this.panelSalesReport.Location = new System.Drawing.Point(-1, 238);
-            this.panelSalesReport.Margin = new System.Windows.Forms.Padding(4);
-            this.panelSalesReport.MaximumSize = new System.Drawing.Size(309, 174);
-            this.panelSalesReport.MinimumSize = new System.Drawing.Size(309, 52);
-            this.panelSalesReport.Name = "panelSalesReport";
-            this.panelSalesReport.Size = new System.Drawing.Size(309, 52);
-            this.panelSalesReport.TabIndex = 10;
-            // 
-            // panelChef
-            // 
-            this.panelChef.Controls.Add(this.btnChef);
-            this.panelChef.Location = new System.Drawing.Point(0, 94);
-            this.panelChef.Margin = new System.Windows.Forms.Padding(4);
-            this.panelChef.Name = "panelChef";
-            this.panelChef.Size = new System.Drawing.Size(309, 41);
-            this.panelChef.TabIndex = 16;
-            // 
             // btnChef
             // 
             this.btnChef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
@@ -772,23 +958,6 @@
             this.btnChef.UseVisualStyleBackColor = false;
             this.btnChef.Click += new System.EventHandler(this.btnChef_Click);
             // 
-            // panelYear
-            // 
-            this.panelYear.Location = new System.Drawing.Point(0, 92);
-            this.panelYear.Margin = new System.Windows.Forms.Padding(4);
-            this.panelYear.Name = "panelYear";
-            this.panelYear.Size = new System.Drawing.Size(309, 41);
-            this.panelYear.TabIndex = 8;
-            // 
-            // panelMonth
-            // 
-            this.panelMonth.Controls.Add(this.btnMonth);
-            this.panelMonth.Location = new System.Drawing.Point(0, 52);
-            this.panelMonth.Margin = new System.Windows.Forms.Padding(4);
-            this.panelMonth.Name = "panelMonth";
-            this.panelMonth.Size = new System.Drawing.Size(309, 41);
-            this.panelMonth.TabIndex = 7;
-            // 
             // btnMonth
             // 
             this.btnMonth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
@@ -807,16 +976,6 @@
             this.btnMonth.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMonth.UseVisualStyleBackColor = false;
             this.btnMonth.Click += new System.EventHandler(this.btnMonth_Click);
-            // 
-            // panelReport
-            // 
-            this.panelReport.Controls.Add(this.picArrowSale);
-            this.panelReport.Controls.Add(this.btnReport);
-            this.panelReport.Location = new System.Drawing.Point(0, 0);
-            this.panelReport.Margin = new System.Windows.Forms.Padding(4);
-            this.panelReport.Name = "panelReport";
-            this.panelReport.Size = new System.Drawing.Size(309, 52);
-            this.panelReport.TabIndex = 6;
             // 
             // picArrowSale
             // 
@@ -863,42 +1022,6 @@
             this.picBoxPower.TabStop = false;
             this.picBoxPower.Click += new System.EventHandler(this.picBoxPower_Click);
             // 
-            // btnLogout
-            // 
-            this.btnLogout.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
-            this.btnLogout.Location = new System.Drawing.Point(117, 651);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(4);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(141, 38);
-            this.btnLogout.TabIndex = 2;
-            this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = true;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // panelUpdate
-            // 
-            this.panelUpdate.Controls.Add(this.subPanelUpdateEmail);
-            this.panelUpdate.Controls.Add(this.panelUpdateBtn);
-            this.panelUpdate.Controls.Add(this.subPanelUpdatePassword);
-            this.panelUpdate.Controls.Add(this.subPanelUpdateProfile);
-            this.panelUpdate.Location = new System.Drawing.Point(0, 353);
-            this.panelUpdate.Margin = new System.Windows.Forms.Padding(4);
-            this.panelUpdate.MaximumSize = new System.Drawing.Size(308, 174);
-            this.panelUpdate.MinimumSize = new System.Drawing.Size(308, 52);
-            this.panelUpdate.Name = "panelUpdate";
-            this.panelUpdate.Size = new System.Drawing.Size(308, 52);
-            this.panelUpdate.TabIndex = 7;
-            // 
-            // subPanelUpdateEmail
-            // 
-            this.subPanelUpdateEmail.Controls.Add(this.btnUpdateEmail);
-            this.subPanelUpdateEmail.Location = new System.Drawing.Point(0, 133);
-            this.subPanelUpdateEmail.Margin = new System.Windows.Forms.Padding(4);
-            this.subPanelUpdateEmail.Name = "subPanelUpdateEmail";
-            this.subPanelUpdateEmail.Size = new System.Drawing.Size(308, 41);
-            this.subPanelUpdateEmail.TabIndex = 9;
-            // 
             // btnUpdateEmail
             // 
             this.btnUpdateEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
@@ -917,17 +1040,6 @@
             this.btnUpdateEmail.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnUpdateEmail.UseVisualStyleBackColor = false;
             this.btnUpdateEmail.Click += new System.EventHandler(this.btnUpdateEmail_Click);
-            // 
-            // panelUpdateBtn
-            // 
-            this.panelUpdateBtn.Controls.Add(this.picArrowUpdate);
-            this.panelUpdateBtn.Controls.Add(this.btnUpdate);
-            this.panelUpdateBtn.Location = new System.Drawing.Point(0, 0);
-            this.panelUpdateBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.panelUpdateBtn.MinimumSize = new System.Drawing.Size(308, 52);
-            this.panelUpdateBtn.Name = "panelUpdateBtn";
-            this.panelUpdateBtn.Size = new System.Drawing.Size(308, 52);
-            this.panelUpdateBtn.TabIndex = 15;
             // 
             // picArrowUpdate
             // 
@@ -962,15 +1074,6 @@
             this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click_1);
             // 
-            // subPanelUpdatePassword
-            // 
-            this.subPanelUpdatePassword.Controls.Add(this.btnUpdatePassword);
-            this.subPanelUpdatePassword.Location = new System.Drawing.Point(0, 92);
-            this.subPanelUpdatePassword.Margin = new System.Windows.Forms.Padding(4);
-            this.subPanelUpdatePassword.Name = "subPanelUpdatePassword";
-            this.subPanelUpdatePassword.Size = new System.Drawing.Size(308, 41);
-            this.subPanelUpdatePassword.TabIndex = 8;
-            // 
             // btnUpdatePassword
             // 
             this.btnUpdatePassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
@@ -990,15 +1093,6 @@
             this.btnUpdatePassword.UseVisualStyleBackColor = false;
             this.btnUpdatePassword.Click += new System.EventHandler(this.btnUpdatePassword_Click);
             // 
-            // subPanelUpdateProfile
-            // 
-            this.subPanelUpdateProfile.Controls.Add(this.btnUpdateProfile);
-            this.subPanelUpdateProfile.Location = new System.Drawing.Point(0, 52);
-            this.subPanelUpdateProfile.Margin = new System.Windows.Forms.Padding(4);
-            this.subPanelUpdateProfile.Name = "subPanelUpdateProfile";
-            this.subPanelUpdateProfile.Size = new System.Drawing.Size(308, 41);
-            this.subPanelUpdateProfile.TabIndex = 7;
-            // 
             // btnUpdateProfile
             // 
             this.btnUpdateProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
@@ -1017,16 +1111,6 @@
             this.btnUpdateProfile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnUpdateProfile.UseVisualStyleBackColor = false;
             this.btnUpdateProfile.Click += new System.EventHandler(this.btnUpdateProfile_Click);
-            // 
-            // panelHome
-            // 
-            this.panelHome.Controls.Add(this.pictureBox1);
-            this.panelHome.Controls.Add(this.btnHome);
-            this.panelHome.Location = new System.Drawing.Point(-1, 124);
-            this.panelHome.Margin = new System.Windows.Forms.Padding(4);
-            this.panelHome.Name = "panelHome";
-            this.panelHome.Size = new System.Drawing.Size(313, 52);
-            this.panelHome.TabIndex = 4;
             // 
             // pictureBox1
             // 
@@ -1058,15 +1142,6 @@
             this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panelFeedback
-            // 
-            this.panelFeedback.Controls.Add(this.btnFeed);
-            this.panelFeedback.Location = new System.Drawing.Point(0, 297);
-            this.panelFeedback.Margin = new System.Windows.Forms.Padding(4);
-            this.panelFeedback.Name = "panelFeedback";
-            this.panelFeedback.Size = new System.Drawing.Size(312, 52);
-            this.panelFeedback.TabIndex = 6;
-            // 
             // btnFeed
             // 
             this.btnFeed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
@@ -1086,17 +1161,6 @@
             this.btnFeed.UseVisualStyleBackColor = false;
             this.btnFeed.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // panelMenu
-            // 
-            this.panelMenu.Controls.Add(this.picBoxSelf);
-            this.panelMenu.Controls.Add(this.lblMenu);
-            this.panelMenu.Controls.Add(this.picMenuBar);
-            this.panelMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelMenu.Margin = new System.Windows.Forms.Padding(4);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(312, 113);
-            this.panelMenu.TabIndex = 3;
-            // 
             // picBoxSelf
             // 
             this.picBoxSelf.Image = global::Assignment.Properties.Resources.self_011;
@@ -1109,19 +1173,6 @@
             this.picBoxSelf.TabStop = false;
             this.picBoxSelf.Click += new System.EventHandler(this.picBoxSelf_Click);
             // 
-            // lblMenu
-            // 
-            this.lblMenu.AutoSize = true;
-            this.lblMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
-            this.lblMenu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMenu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblMenu.Location = new System.Drawing.Point(112, 44);
-            this.lblMenu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblMenu.Name = "lblMenu";
-            this.lblMenu.Size = new System.Drawing.Size(62, 28);
-            this.lblMenu.TabIndex = 3;
-            this.lblMenu.Text = "Menu";
-            // 
             // picMenuBar
             // 
             this.picMenuBar.Image = global::Assignment.Properties.Resources.menu_01;
@@ -1133,57 +1184,6 @@
             this.picMenuBar.TabIndex = 2;
             this.picMenuBar.TabStop = false;
             this.picMenuBar.Click += new System.EventHandler(this.picMenuBar_Click);
-            // 
-            // sidePanelTimer
-            // 
-            this.sidePanelTimer.Interval = 15;
-            this.sidePanelTimer.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // imageArrowList
-            // 
-            this.imageArrowList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageArrowList.ImageStream")));
-            this.imageArrowList.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageArrowList.Images.SetKeyName(0, "arrow down-01.png");
-            this.imageArrowList.Images.SetKeyName(1, "arrow up-01.png");
-            // 
-            // dropDownPanelStaff
-            // 
-            this.dropDownPanelStaff.Interval = 15;
-            this.dropDownPanelStaff.Tick += new System.EventHandler(this.dropDownPanelStaff_Tick);
-            // 
-            // timerUpdate
-            // 
-            this.timerUpdate.Interval = 25;
-            this.timerUpdate.Tick += new System.EventHandler(this.timerUpdate_Tick);
-            // 
-            // lblAdminWelcome
-            // 
-            this.lblAdminWelcome.AutoSize = true;
-            this.lblAdminWelcome.Font = new System.Drawing.Font("Britannic Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdminWelcome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(55)))), ((int)(((byte)(58)))));
-            this.lblAdminWelcome.Location = new System.Drawing.Point(508, 537);
-            this.lblAdminWelcome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblAdminWelcome.Name = "lblAdminWelcome";
-            this.lblAdminWelcome.Size = new System.Drawing.Size(0, 67);
-            this.lblAdminWelcome.TabIndex = 3;
-            this.lblAdminWelcome.Click += new System.EventHandler(this.lblAdminWelcome_Click);
-            // 
-            // timerSales
-            // 
-            this.timerSales.Interval = 25;
-            this.timerSales.Tick += new System.EventHandler(this.timerSales_Tick);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
-            this.pictureBox4.Image = global::Assignment.Properties.Resources.FOODIEPOINT_01;
-            this.pictureBox4.Location = new System.Drawing.Point(535, 98);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(435, 394);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 11;
-            this.pictureBox4.TabStop = false;
             // 
             // Admin_Menu
             // 
@@ -1219,28 +1219,28 @@
             this.panelCustomerDelete.ResumeLayout(false);
             this.panelCustomerEdit.ResumeLayout(false);
             this.panelStaffCustomer.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picArrowStaff)).EndInit();
             this.panelSalesReport.ResumeLayout(false);
             this.panelChef.ResumeLayout(false);
             this.panelMonth.ResumeLayout(false);
             this.panelReport.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picArrowSale)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxPower)).EndInit();
             this.panelUpdate.ResumeLayout(false);
             this.subPanelUpdateEmail.ResumeLayout(false);
             this.panelUpdateBtn.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picArrowUpdate)).EndInit();
             this.subPanelUpdatePassword.ResumeLayout(false);
             this.subPanelUpdateProfile.ResumeLayout(false);
             this.panelHome.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelFeedback.ResumeLayout(false);
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picArrowStaff)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picArrowSale)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxPower)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picArrowUpdate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxSelf)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMenuBar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

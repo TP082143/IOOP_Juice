@@ -46,7 +46,7 @@ namespace Assignment
         private void lblLogOut_Click(object sender, EventArgs e)
         {
             this.Close();
-            LoginPage obj = new LoginPage();
+            Login_Page obj = new Login_Page();
             obj.Show();
         }
 
