@@ -77,7 +77,7 @@
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label3.Location = new System.Drawing.Point(7, 282);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(178, 29);
+            this.label3.Size = new System.Drawing.Size(219, 36);
             this.label3.TabIndex = 17;
             this.label3.Text = "• Update Status";
             // 
@@ -88,7 +88,7 @@
             this.lblLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogOut.Location = new System.Drawing.Point(7, 700);
             this.lblLogOut.Name = "lblLogOut";
-            this.lblLogOut.Size = new System.Drawing.Size(98, 29);
+            this.lblLogOut.Size = new System.Drawing.Size(121, 36);
             this.lblLogOut.TabIndex = 2;
             this.lblLogOut.Text = "Log Out";
             // 
@@ -99,7 +99,7 @@
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(68, 129);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(124, 25);
+            this.label11.Size = new System.Drawing.Size(156, 31);
             this.label11.TabIndex = 16;
             this.label11.Text = "Home Page";
             // 
@@ -120,9 +120,10 @@
             this.lblHall.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblHall.Location = new System.Drawing.Point(7, 228);
             this.lblHall.Name = "lblHall";
-            this.lblHall.Size = new System.Drawing.Size(166, 29);
+            this.lblHall.Size = new System.Drawing.Size(201, 36);
             this.lblHall.TabIndex = 3;
             this.lblHall.Text = "• Edit Reserve";
+            this.lblHall.Click += new System.EventHandler(this.lblHall_Click);
             // 
             // lblMenu
             // 
@@ -130,9 +131,10 @@
             this.lblMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMenu.Location = new System.Drawing.Point(7, 175);
             this.lblMenu.Name = "lblMenu";
-            this.lblMenu.Size = new System.Drawing.Size(167, 29);
+            this.lblMenu.Size = new System.Drawing.Size(204, 36);
             this.lblMenu.TabIndex = 1;
             this.lblMenu.Text = "• Add Reserve";
+            this.lblMenu.Click += new System.EventHandler(this.lblMenu_Click);
             // 
             // pictureBox1
             // 
@@ -151,7 +153,7 @@
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Location = new System.Drawing.Point(70, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(124, 29);
+            this.label1.Size = new System.Drawing.Size(150, 36);
             this.label1.TabIndex = 1;
             this.label1.Text = "Username";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -162,7 +164,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(7, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(192, 25);
+            this.label2.Size = new System.Drawing.Size(239, 31);
             this.label2.TabIndex = 2;
             this.label2.Text = "_______________";
             // 
@@ -185,7 +187,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(6, 212);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(665, 29);
+            this.label12.Size = new System.Drawing.Size(828, 36);
             this.label12.TabIndex = 2;
             this.label12.Text = "3.  View and reply to customer for their request on reservation";
             // 
@@ -194,7 +196,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(6, 145);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(315, 29);
+            this.label10.Size = new System.Drawing.Size(394, 36);
             this.label10.TabIndex = 1;
             this.label10.Text = "2.  Update reservation status";
             // 
@@ -203,7 +205,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(6, 76);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(437, 29);
+            this.label8.Size = new System.Drawing.Size(546, 36);
             this.label8.TabIndex = 0;
             this.label8.Text = "1.  Manage Reservation and  assign hall";
             // 
@@ -214,14 +216,14 @@
             this.label6.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.label6.Location = new System.Drawing.Point(424, 104);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(747, 146);
+            this.label6.Size = new System.Drawing.Size(924, 182);
             this.label6.TabIndex = 3;
             this.label6.Text = "Welcome to Reservation \r\nCoodinator Main Menu";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // ReservationMainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 36F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(1284, 781);
@@ -232,6 +234,7 @@
             this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "ReservationMainMenu";
             this.Text = "ReservationMainMenu";
+            this.Load += new System.EventHandler(this.ReservationMainMenu_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

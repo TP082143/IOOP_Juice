@@ -21,5 +21,20 @@ namespace Assignment
         {
 
         }
+
+        private void ReservationMainMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblMenu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblHall_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

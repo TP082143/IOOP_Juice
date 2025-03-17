@@ -24,58 +24,66 @@ namespace Assignment
 
         private void label1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             UpdateOwnProfile obj = new UpdateOwnProfile();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             UpdateOwnProfile obj = new UpdateOwnProfile();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             ManagerViewHall obj = new ManagerViewHall();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void lblLogOut_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             Login_Page obj = new Login_Page();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void label3_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             ManagerViewMenu obj = new ManagerViewMenu();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void label7_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             ManagerViewMenu obj = new ManagerViewMenu();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             ManagerAddHall obj = new ManagerAddHall();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void label9_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             ManagerReservationReport obj = new ManagerReservationReport();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void DropDown ()

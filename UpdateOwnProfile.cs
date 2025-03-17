@@ -19,8 +19,9 @@ namespace Assignment
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             ManagerMainMenu obj = new ManagerMainMenu();
-            obj.Show();
+            obj.ShowDialog();
             this.Close();
         }
 
@@ -115,23 +116,26 @@ namespace Assignment
 
         private void label11_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             ManagerMainMenu obj = new ManagerMainMenu();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
             ManagerMainMenu obj = new ManagerMainMenu();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void lblLogOut_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             LoginPage obj = new LoginPage();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -146,15 +150,28 @@ namespace Assignment
 
         private void label13_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             ManagerViewMenu obj = new ManagerViewMenu();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void label12_Click(object sender, EventArgs e)
         {
+            this.Hide();
             ManagerAddMenu obj = new ManagerAddMenu();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
+        }
+
+        private void UpdateOwnProfile_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

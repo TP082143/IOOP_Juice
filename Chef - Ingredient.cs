@@ -31,7 +31,7 @@ namespace Assignment
             listBoxIngredient.Items.Clear();
             {
                 {
-                    string Connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\TJJJJ\Desktop\IOOP\Assignment\Assignment\ingredient.mdf;Integrated Security = True";
+                    string Connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Minhajul\Downloads\mona\IOOP_Juice\ingredient.mdf;Integrated Security=True";
                     using (SqlConnection Ingredient = new SqlConnection(Connection))
                     {
                         Ingredient.Open();

@@ -11,7 +11,7 @@ namespace Assignment
 {
     internal class SQL
     {
-        string connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Huang\Documents\Assignment\Menu.mdf;Integrated Security=True";
+        string connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Minhajul\Downloads\mona\IOOP_Juice\Menu.mdf;Integrated Security=True";
        
         public string AddMenu(bool rdb,string id, string nm, double pr)
         {      

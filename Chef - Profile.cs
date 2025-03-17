@@ -39,5 +39,10 @@ namespace Assignment
             Ingredient obj = new Ingredient();
             obj.Show();
         }
+
+        private void Profile_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -145,7 +145,7 @@ namespace Assignment
 
         private void ShowHall()
         {
-            string connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Huang\Documents\Assignment\Menu.mdf;Integrated Security=True";
+            string connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Minhajul\Downloads\mona\IOOP_Juice\Menu.mdf;Integrated Security=True";
             using (SqlConnection conn = new SqlConnection(connection))
             {
                 conn.Open();

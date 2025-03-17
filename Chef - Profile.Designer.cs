@@ -432,6 +432,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Profile";
             this.Text = "Profile";
+            this.Load += new System.EventHandler(this.Profile_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();

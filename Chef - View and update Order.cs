@@ -22,7 +22,7 @@ namespace Assignment
 
         private void View_Order()
         {
-            string connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\TJJJJ\Desktop\IOOP\Assignment\Assignment\ingredient.mdf;Integrated Security = True";
+            string connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Minhajul\Downloads\mona\IOOP_Juice\ingredient.mdf;Integrated Security=True";
             using (SqlConnection conn = new SqlConnection(connection))
             {
                 conn.Open();
