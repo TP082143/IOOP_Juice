@@ -12,34 +12,33 @@ namespace Assignment
 {
     public partial class ManagerMainMenu : Form
     {
-        public ManagerMainMenu()
+        private string username;
+
+        public ManagerMainMenu(string user)
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            username = user;
+            label1.Text = username;
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             this.Close();
-            UpdateOwnProfile obj = new UpdateOwnProfile();
+            UpdateOwnProfile obj = new UpdateOwnProfile(username);
             obj.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
-            UpdateOwnProfile obj = new UpdateOwnProfile();
+            UpdateOwnProfile obj = new UpdateOwnProfile(username);
             obj.Show();
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerViewHall obj = new ManagerViewHall();
+            ManagerViewHall obj = new ManagerViewHall(username);
             obj.Show();
         }
 
@@ -53,28 +52,28 @@ namespace Assignment
         private void label3_Click_1(object sender, EventArgs e)
         {
             this.Close();
-            ManagerViewMenu obj = new ManagerViewMenu();
+            ManagerViewMenu obj = new ManagerViewMenu(username);
             obj.Show();
         }
 
         private void label7_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerViewMenu obj = new ManagerViewMenu();
+            ManagerViewMenu obj = new ManagerViewMenu(username);
             obj.Show();
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerAddHall obj = new ManagerAddHall();
+            ManagerAddHall obj = new ManagerAddHall(username);
             obj.Show();
         }
 
         private void label9_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerReservationReport obj = new ManagerReservationReport();
+            ManagerReservationReport obj = new ManagerReservationReport(username);
             obj.Show();
         }
 
@@ -161,6 +160,16 @@ namespace Assignment
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ManagerMainMenu_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

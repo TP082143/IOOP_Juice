@@ -148,6 +148,7 @@
             this.label1.Size = new System.Drawing.Size(124, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Username";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -167,9 +168,10 @@
             this.ClientSize = new System.Drawing.Size(1284, 781);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "EditReservation";
             this.Text = "EditReservation";
+            this.Load += new System.EventHandler(this.EditReservation_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

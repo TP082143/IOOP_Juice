@@ -12,9 +12,22 @@ namespace Assignment
 {
     public partial class EditReservation : Form
     {
-        public EditReservation()
+        private string username;
+        public EditReservation(string user)
         {
             InitializeComponent();
+            username = user;
+            label1.Text = username;
+        }
+
+        private void EditReservation_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

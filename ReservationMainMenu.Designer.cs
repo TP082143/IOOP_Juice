@@ -232,6 +232,7 @@
             this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "ReservationMainMenu";
             this.Text = "ReservationMainMenu";
+            this.Load += new System.EventHandler(this.ReservationMainMenu_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

@@ -13,9 +13,12 @@ namespace Assignment
 {
     public partial class ManagerAddHall : Form
     {
-        public ManagerAddHall()
+        private string username;
+        public ManagerAddHall(string user)
         {
             InitializeComponent();
+            username = user;
+            label9.Text = username;
         }
 
         private void ManagerAddHall_Load(object sender, EventArgs e)
@@ -26,56 +29,56 @@ namespace Assignment
         private void label9_Click(object sender, EventArgs e)
         {
             this.Close();
-            UpdateOwnProfile obj = new UpdateOwnProfile();
+            UpdateOwnProfile obj = new UpdateOwnProfile(username);
             obj.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
-            UpdateOwnProfile obj = new UpdateOwnProfile();
+            UpdateOwnProfile obj = new UpdateOwnProfile(username);
             obj.Show();
         }
 
         private void label11_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerMainMenu obj = new ManagerMainMenu();
+            ManagerMainMenu obj = new ManagerMainMenu(username);
             obj.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerMainMenu obj = new ManagerMainMenu();
+            ManagerMainMenu obj = new ManagerMainMenu(username);
             obj.Show();
         }
 
         private void label13_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerViewMenu obj = new ManagerViewMenu();
+            ManagerViewMenu obj = new ManagerViewMenu(username);
             obj.Show();
         }
 
         private void label12_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerAddMenu obj = new ManagerAddMenu();
+            ManagerAddMenu obj = new ManagerAddMenu(username);
             obj.Show();
         }
 
         private void label15_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerViewHall obj = new ManagerViewHall();
+            ManagerViewHall obj = new ManagerViewHall(username);
             obj.Show();
         }
 
         private void label16_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerReservationReport obj = new ManagerReservationReport();
+            ManagerReservationReport obj = new ManagerReservationReport(username);
             obj.Show();
         }
 

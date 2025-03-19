@@ -12,12 +12,20 @@ namespace Assignment
 {
     public partial class ReservationMainMenu : Form
     {
-        public ReservationMainMenu()
+        private string username;
+        public ReservationMainMenu(string user)
         {
             InitializeComponent();
+            username = user;
+            label1.Text = username;
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ReservationMainMenu_Load(object sender, EventArgs e)
         {
 
         }

@@ -177,5 +177,29 @@ namespace Assignment
             }
             return "Deleted Succeful";
         }
+
+        public string AddReservation(string nm, int ct, string id, int cp, string pt, int np, string dt, int ts, int te)
+        {
+            using (SqlConnection conn = new SqlConnection(connection))
+            {
+                conn.Open();
+                string query = "Insert Into Reservation(CusUsername,Contact,HallID,Capacity,PartyType,NumPeople,Date,TimeStart,TimeEnd,Status) Values(@nm,@ct,@id,@cp,@pt,@np,@dt,@ts,@te,@st)";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@nm", nm);
+                    cmd.Parameters.AddWithValue("@ct", ct);
+                    cmd.Parameters.AddWithValue("@id", id);
+                    cmd.Parameters.AddWithValue("@cp", cp);
+                    cmd.Parameters.AddWithValue("@pt", pt);
+                    cmd.Parameters.AddWithValue("@np", np);
+                    cmd.Parameters.AddWithValue("@dt", dt);
+                    cmd.Parameters.AddWithValue("@ts", ts);
+                    cmd.Parameters.AddWithValue("@te", te);
+                    cmd.Parameters.AddWithValue("@st", "Pending");
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            return "Added Succeful";
+        }
     }
 }

@@ -12,14 +12,17 @@ namespace Assignment
 {
     public partial class UpdateOwnProfile : Form
     {
-        public UpdateOwnProfile()
+        private string username;
+        public UpdateOwnProfile(string user)
         {
             InitializeComponent();
+            username = user;
+            label9.Text = username;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ManagerMainMenu obj = new ManagerMainMenu();
+            ManagerMainMenu obj = new ManagerMainMenu(username);
             obj.Show();
             this.Close();
         }
@@ -116,14 +119,14 @@ namespace Assignment
         private void label11_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerMainMenu obj = new ManagerMainMenu();
+            ManagerMainMenu obj = new ManagerMainMenu(username);
             obj.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerMainMenu obj = new ManagerMainMenu();
+            ManagerMainMenu obj = new ManagerMainMenu(username);
             obj.Show();
         }
 
@@ -147,13 +150,13 @@ namespace Assignment
         private void label13_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerViewMenu obj = new ManagerViewMenu();
+            ManagerViewMenu obj = new ManagerViewMenu(username);
             obj.Show();
         }
 
         private void label12_Click(object sender, EventArgs e)
         {
-            ManagerAddMenu obj = new ManagerAddMenu();
+            ManagerAddMenu obj = new ManagerAddMenu(username);
             obj.Show();
         }
     }

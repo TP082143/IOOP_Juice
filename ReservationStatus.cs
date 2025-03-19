@@ -12,9 +12,17 @@ namespace Assignment
 {
     public partial class ReservationStatus : Form
     {
-        public ReservationStatus()
+        private string username;
+        public ReservationStatus(string user)
         {
             InitializeComponent();
+            username = user;
+            label1.Text = username;
+        }
+
+        private void ReservationStatus_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
