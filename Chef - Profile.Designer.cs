@@ -311,9 +311,9 @@
             this.label13.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(249, 87);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(190, 40);
+            this.label13.Size = new System.Drawing.Size(179, 40);
             this.label13.TabIndex = 38;
-            this.label13.Text = "First Name :";
+            this.label13.Text = "First Name ";
             // 
             // label12
             // 
@@ -321,9 +321,9 @@
             this.label12.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(249, 146);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(190, 40);
+            this.label12.Size = new System.Drawing.Size(173, 40);
             this.label12.TabIndex = 37;
-            this.label12.Text = "First Name :";
+            this.label12.Text = "Last Name ";
             // 
             // label11
             // 
@@ -331,9 +331,9 @@
             this.label11.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(249, 326);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(190, 40);
+            this.label11.Size = new System.Drawing.Size(119, 40);
             this.label11.TabIndex = 36;
-            this.label11.Text = "First Name :";
+            this.label11.Text = "Gender";
             // 
             // label10
             // 
@@ -341,9 +341,9 @@
             this.label10.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(249, 262);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(190, 40);
+            this.label10.Size = new System.Drawing.Size(98, 40);
             this.label10.TabIndex = 35;
-            this.label10.Text = "First Name :";
+            this.label10.Text = "Email";
             // 
             // label1
             // 
@@ -351,9 +351,9 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(249, 207);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(190, 40);
+            this.label1.Size = new System.Drawing.Size(157, 40);
             this.label1.TabIndex = 34;
-            this.label1.Text = "First Name :";
+            this.label1.Text = "Username";
             // 
             // label5
             // 

@@ -92,16 +92,6 @@ namespace Assignment
 
         }
 
-        private void buttonEdit_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonSearch_Click(object sender, EventArgs e)
-        {
-            
-
-        }
 
         private void radioButtonAddIngredient_CheckedChanged(object sender, EventArgs e)
         {
@@ -206,11 +196,11 @@ namespace Assignment
 
             else if (radioButtonSearch.Checked)
             {
-                string A = textBoxAddIngredient.Text.Trim().ToUpper();
+                string B = textBoxIngredientName.Text.Trim().ToLower();
                 bool Ingredient = false;
-                if (string.IsNullOrEmpty(A))
+                if (string.IsNullOrEmpty(B))
                 {
-                    labelShowIngredient.Text = "Please input an Ingredient ID";
+                    labelShowIngredient.Text = "Please input Ingredient Name ";
                     return;
                 }
 
@@ -218,13 +208,13 @@ namespace Assignment
                 {
                     for (int i = 0; i < listBoxIngredient.Items.Count; i = i + 1)
                     {
-                        string items = listBoxIngredient.Items[i].ToString();
-                        string IngredientID = items.Split(',')[0];
-                        string IngredientName = items.Split(',')[1];
-                        string Quantity = items.Split(',')[2];
-                        string unit = items.Split(',')[3];
+                        string items = listBoxIngredient.Items[i].ToString().Trim();
+                        string IngredientID = items.Split(',')[0].Trim();
+                        string IngredientName = items.Split(',')[1].Trim().ToLower();
+                        string Quantity = items.Split(',')[2].Trim();
+                        string unit = items.Split(',')[3].Trim();
 
-                        if (A == IngredientID)
+                        if (B == IngredientName)
                         {
                             Ingredient = true;
                             listBoxIngredient.SelectedIndex = i;
@@ -236,6 +226,7 @@ namespace Assignment
                             break;
                             
                         }
+
                     }
                 }
                 if (Ingredient == false)
@@ -249,7 +240,7 @@ namespace Assignment
             else { labelShowIngredient.Text = "Please select a function"; }
         }
         
-private void radioButtonDelete_CheckedChanged(object sender, EventArgs e)
+        private void radioButtonDelete_CheckedChanged(object sender, EventArgs e)
         {
             Clear_Data();
             listBoxIngredient.Enabled = true;
@@ -264,8 +255,8 @@ private void radioButtonDelete_CheckedChanged(object sender, EventArgs e)
         private void radioButtonSearch_CheckedChanged(object sender, EventArgs e)
         {
             Clear_Data();
-            textBoxAddIngredient.Enabled = true;
-            textBoxIngredientName.Enabled = false;
+            textBoxAddIngredient.Enabled = false;
+            textBoxIngredientName.Enabled = true;
             textBoxQuantity.Enabled = false;
             textBoxUnit.Enabled = false;
             listBoxIngredient.Enabled= false;                

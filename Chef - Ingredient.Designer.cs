@@ -35,7 +35,7 @@
             this.labelUnit = new System.Windows.Forms.Label();
             this.textBoxAddIngredient = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.buttonNext = new System.Windows.Forms.Button();
+            this.buttonGo = new System.Windows.Forms.Button();
             this.radioButtonSearch = new System.Windows.Forms.RadioButton();
             this.radioButtonDelete = new System.Windows.Forms.RadioButton();
             this.radioButtonEdit = new System.Windows.Forms.RadioButton();
@@ -130,7 +130,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.buttonNext);
+            this.groupBox1.Controls.Add(this.buttonGo);
             this.groupBox1.Controls.Add(this.radioButtonSearch);
             this.groupBox1.Controls.Add(this.radioButtonDelete);
             this.groupBox1.Controls.Add(this.radioButtonEdit);
@@ -153,15 +153,15 @@
             this.groupBox1.Text = "Chef - Add, Edit, Delete Ingredient";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // buttonNext
+            // buttonGo
             // 
-            this.buttonNext.Location = new System.Drawing.Point(347, 459);
-            this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(185, 52);
-            this.buttonNext.TabIndex = 40;
-            this.buttonNext.Text = "Next";
-            this.buttonNext.UseVisualStyleBackColor = true;
-            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
+            this.buttonGo.Location = new System.Drawing.Point(347, 459);
+            this.buttonGo.Name = "buttonGo";
+            this.buttonGo.Size = new System.Drawing.Size(185, 52);
+            this.buttonGo.TabIndex = 40;
+            this.buttonGo.Text = "Next";
+            this.buttonGo.UseVisualStyleBackColor = true;
+            this.buttonGo.Click += new System.EventHandler(this.buttonNext_Click);
             // 
             // radioButtonSearch
             // 
@@ -256,9 +256,9 @@
             this.labelShowIngredient.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelShowIngredient.Location = new System.Drawing.Point(29, 601);
             this.labelShowIngredient.Name = "labelShowIngredient";
-            this.labelShowIngredient.Size = new System.Drawing.Size(26, 28);
+            this.labelShowIngredient.Size = new System.Drawing.Size(82, 28);
             this.labelShowIngredient.TabIndex = 25;
-            this.labelShowIngredient.Text = "d";
+            this.labelShowIngredient.Text = "display";
             this.labelShowIngredient.Click += new System.EventHandler(this.labelShowIngredient_Click);
             // 
             // groupBox3
@@ -556,6 +556,6 @@
         private System.Windows.Forms.RadioButton radioButtonDelete;
         private System.Windows.Forms.RadioButton radioButtonEdit;
         private System.Windows.Forms.RadioButton radioButtonAddIngredient;
-        private System.Windows.Forms.Button buttonNext;
+        private System.Windows.Forms.Button buttonGo;
     }
 }
