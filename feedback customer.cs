@@ -30,11 +30,11 @@ namespace Assignment
             }
             else
             {
-                using (SqlConnection feedback = new SqlConnection(connection))
+                using (SqlConnection CusFeedback = new SqlConnection(connection))
                 {
-                    feedback.Open();
+                    CusFeedback.Open();
                     string query = "Insert into feedback(Username, Feedback) Values(@username,@feedback)";
-                    using (SqlCommand cmd = new SqlCommand(query, feedback))
+                    using (SqlCommand cmd = new SqlCommand(query, CusFeedback))
                     {
                         cmd.Parameters.AddWithValue("@username", lblUser.Text);
                         cmd.Parameters.AddWithValue("@feedback", txtfeedback.Text);

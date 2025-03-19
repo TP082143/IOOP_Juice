@@ -130,7 +130,7 @@ namespace Assignment
             using (SqlConnection order = new SqlConnection(connection))
             {
                 order.Open();
-                string query = "Insert into order(OrderID, FoodID, Food_Name, Price, Quantity) Values(@orderid, @foodid, @foodname, @price, @quantity)";
+                string query = "Insert into order(OrderID, FoodID, Food_Name, Price, Quantity, Order_status, Total_Prices) Values(@orderid, @foodid, @foodname, @price, @quantity, @orderstatus)";
                 using (SqlCommand cmd = new SqlCommand(query, order))
                 {
                     cmd.Parameters.AddWithValue("@orderid", listMenu.SelectedItem.ToString().Split(',')[0]);
