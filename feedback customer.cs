@@ -30,18 +30,8 @@ namespace Assignment
             }
             else
             {
-                using (SqlConnection CusFeedback = new SqlConnection(connection))
-                {
-                    CusFeedback.Open();
-                    string query = "Insert into feedback(Username, Feedback) Values(@username,@feedback)";
-                    using (SqlCommand cmd = new SqlCommand(query, CusFeedback))
-                    {
-                        cmd.Parameters.AddWithValue("@username", lblUser.Text);
-                        cmd.Parameters.AddWithValue("@feedback", txtfeedback.Text);
-                        cmd.ExecuteNonQuery();
-                    }
-                    MessageBox.Show($"Thank you for your valuable feedback! We truly appreciate your time and effort in sharing your thoughts with us");
-                }
+                ClassFeedbackCustomer C1 = new ClassFeedbackCustomer();
+                C1.CusFeedback(lblUser.Text, txtfeedback.Text);
             }
         }
         

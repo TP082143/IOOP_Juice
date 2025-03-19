@@ -70,6 +70,12 @@
       <DependentUpon>AddReservation.cs</DependentUpon>
     </Compile>
     <Compile Include="addstaff.cs" />
+    <Compile Include="Check Status customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check Status customer.Designer.cs">
+      <DependentUpon>Check Status customer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Chef - Ingredient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,10 +100,17 @@
     <Compile Include="Chef - View and update Order.Designer.cs">
       <DependentUpon>Chef - View and update Order.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClassFeedbackCustomer.cs" />
     <Compile Include="Database2DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Database2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="editprofile customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editprofile customer.Designer.cs">
+      <DependentUpon>editprofile customer.cs</DependentUpon>
     </Compile>
     <Compile Include="EditReservation.cs">
       <SubType>Form</SubType>
@@ -106,6 +119,12 @@
       <DependentUpon>EditReservation.cs</DependentUpon>
     </Compile>
     <Compile Include="editstaff.cs" />
+    <Compile Include="feedback customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feedback customer.Designer.cs">
+      <DependentUpon>feedback customer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inventory.cs" />
     <Compile Include="LoginPage.cs">
       <SubType>Form</SubType>
@@ -125,6 +144,12 @@
     </Compile>
     <Compile Include="Chef.Designer.cs">
       <DependentUpon>Chef.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main menu customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main menu customer.Designer.cs">
+      <DependentUpon>main menu customer.cs</DependentUpon>
     </Compile>
     <Compile Include="ManagerAddHall.cs">
       <SubType>Form</SubType>
@@ -161,6 +186,18 @@
     </Compile>
     <Compile Include="ManagerViewMenu.Designer.cs">
       <DependentUpon>ManagerViewMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ordernow customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ordernow customer.Designer.cs">
+      <DependentUpon>ordernow customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reservation customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reservation customer.Designer.cs">
+      <DependentUpon>reservation customer.cs</DependentUpon>
     </Compile>
     <Compile Include="Reservation.cs">
       <SubType>Form</SubType>
@@ -244,8 +281,23 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="update_admin_profile.cs" />
+    <Compile Include="username customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="username customer.Designer.cs">
+      <DependentUpon>username customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vieworder customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vieworder customer.Designer.cs">
+      <DependentUpon>vieworder customer.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddReservation.resx">
       <DependentUpon>AddReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check Status customer.resx">
+      <DependentUpon>Check Status customer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chef - Ingredient.resx">
       <DependentUpon>Chef - Ingredient.cs</DependentUpon>
@@ -265,11 +317,20 @@
     <EmbeddedResource Include="Chef.resx">
       <DependentUpon>Chef.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="editprofile customer.resx">
+      <DependentUpon>editprofile customer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditReservation.resx">
       <DependentUpon>EditReservation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="feedback customer.resx">
+      <DependentUpon>feedback customer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main menu customer.resx">
+      <DependentUpon>main menu customer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManagerAddHall.resx">
       <DependentUpon>ManagerAddHall.cs</DependentUpon>
@@ -288,6 +349,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManagerViewMenu.resx">
       <DependentUpon>ManagerViewMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ordernow customer.resx">
+      <DependentUpon>ordernow customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reservation customer.resx">
+      <DependentUpon>reservation customer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reservation.resx">
       <DependentUpon>Reservation.cs</DependentUpon>
@@ -335,6 +402,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="username customer.resx">
+      <DependentUpon>username customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vieworder customer.resx">
+      <DependentUpon>vieworder customer.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Database2DataSet.xsc">
       <DependentUpon>Database2DataSet.xsd</DependentUpon>
     </None>
