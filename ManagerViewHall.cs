@@ -13,67 +13,64 @@ namespace Assignment
 {
     public partial class ManagerViewHall : Form
     {
-        private string username;
-        public ManagerViewHall(string user)
+        public ManagerViewHall()
         {
             InitializeComponent();
-            username = user;
-            label9.Text = username;
         }
 
         private void label9_Click(object sender, EventArgs e)
         {
             this.Close();
-            UpdateOwnProfile obj = new UpdateOwnProfile(username);
+            UpdateOwnProfile obj = new UpdateOwnProfile();
             obj.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
-            UpdateOwnProfile obj = new UpdateOwnProfile(username);
+            UpdateOwnProfile obj = new UpdateOwnProfile();
             obj.Show();
         }
 
         private void label11_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerMainMenu obj = new ManagerMainMenu(username);
+            ManagerMainMenu obj = new ManagerMainMenu();
             obj.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerMainMenu obj = new ManagerMainMenu(username);
+            ManagerMainMenu obj = new ManagerMainMenu();
             obj.Show();
         }
 
         private void label13_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerViewMenu obj = new ManagerViewMenu(username);
+            ManagerViewMenu obj = new ManagerViewMenu();
             obj.Show();
         }
 
         private void label12_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerAddMenu obj = new ManagerAddMenu(username);
+            ManagerAddMenu obj = new ManagerAddMenu();
             obj.Show();
         }
 
         private void label14_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerAddHall obj = new ManagerAddHall(username);
+            ManagerAddHall obj = new ManagerAddHall();
             obj.Show();
         }
 
         private void label16_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerReservationReport obj = new ManagerReservationReport(username);
+            ManagerReservationReport obj = new ManagerReservationReport();
             obj.Show();
         }
         private void lblLogOut_Click(object sender, EventArgs e)
@@ -148,7 +145,7 @@ namespace Assignment
 
         private void ShowHall()
         {
-            string connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Huang\Documents\Assignment\Menu.mdf;Integrated Security=True";
+            string connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Minhajul\Downloads\mona\IOOP_Juice\Menu.mdf;Integrated Security=True";
             using (SqlConnection conn = new SqlConnection(connection))
             {
                 conn.Open();

@@ -12,69 +12,78 @@ namespace Assignment
 {
     public partial class ManagerMainMenu : Form
     {
-        private string username;
-
-        public ManagerMainMenu(string user)
+        public ManagerMainMenu()
         {
             InitializeComponent();
-            username = user;
-            label1.Text = username;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            UpdateOwnProfile obj = new UpdateOwnProfile();
+            obj.ShowDialog();
             this.Close();
-            UpdateOwnProfile obj = new UpdateOwnProfile(username);
-            obj.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            UpdateOwnProfile obj = new UpdateOwnProfile();
+            obj.ShowDialog();
             this.Close();
-            UpdateOwnProfile obj = new UpdateOwnProfile(username);
-            obj.Show();
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            ManagerViewHall obj = new ManagerViewHall();
+            obj.ShowDialog();
             this.Close();
-            ManagerViewHall obj = new ManagerViewHall(username);
-            obj.Show();
         }
 
         private void lblLogOut_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Login_Page obj = new Login_Page();
+            obj.ShowDialog();
             this.Close();
-            LoginPage obj = new LoginPage();
-            obj.Show();
         }
 
         private void label3_Click_1(object sender, EventArgs e)
         {
+            this.Hide();
+            ManagerViewMenu obj = new ManagerViewMenu();
+            obj.ShowDialog();
             this.Close();
-            ManagerViewMenu obj = new ManagerViewMenu(username);
-            obj.Show();
         }
 
         private void label7_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            ManagerViewMenu obj = new ManagerViewMenu();
+            obj.ShowDialog();
             this.Close();
-            ManagerViewMenu obj = new ManagerViewMenu(username);
-            obj.Show();
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            ManagerAddHall obj = new ManagerAddHall();
+            obj.ShowDialog();
             this.Close();
-            ManagerAddHall obj = new ManagerAddHall(username);
-            obj.Show();
         }
 
         private void label9_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            ManagerReservationReport obj = new ManagerReservationReport();
+            obj.ShowDialog();
             this.Close();
-            ManagerReservationReport obj = new ManagerReservationReport(username);
-            obj.Show();
         }
 
         private void DropDown ()
@@ -160,16 +169,6 @@ namespace Assignment
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ManagerMainMenu_Load(object sender, EventArgs e)
-        {
-            
         }
     }
 }

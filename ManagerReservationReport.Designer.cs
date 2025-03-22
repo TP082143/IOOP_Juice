@@ -47,11 +47,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.cmbMonth = new System.Windows.Forms.ComboBox();
-            this.cmbHall = new System.Windows.Forms.ComboBox();
-            this.lstReservation = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.pnlMenu.SuspendLayout();
             this.pnlHall.SuspendLayout();
@@ -123,7 +118,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label13.Cursor = System.Windows.Forms.Cursors.Default;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(3, 0);
             this.label13.Name = "label13";
@@ -200,7 +195,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Assignment.Properties.Resources.home_icon;
             this.pictureBox2.Location = new System.Drawing.Point(12, 104);
             this.pictureBox2.Name = "pictureBox2";
@@ -241,7 +235,6 @@
             this.lblMenu.Size = new System.Drawing.Size(176, 29);
             this.lblMenu.TabIndex = 1;
             this.lblMenu.Text = "• Menu            ▼";
-            this.lblMenu.Click += new System.EventHandler(this.lblMenu_Click);
             // 
             // pictureBox1
             // 
@@ -277,81 +270,15 @@
             this.label10.TabIndex = 2;
             this.label10.Text = "_______________";
             // 
-            // cmbMonth
-            // 
-            this.cmbMonth.FormattingEnabled = true;
-            this.cmbMonth.Items.AddRange(new object[] {
-            "All",
-            "Jan",
-            "Feb",
-            "Mar",
-            "Apr",
-            "May",
-            "Jun",
-            "Jul",
-            "Aug",
-            "Sep",
-            "Oct",
-            "Nov",
-            "Dec"});
-            this.cmbMonth.Location = new System.Drawing.Point(405, 50);
-            this.cmbMonth.Name = "cmbMonth";
-            this.cmbMonth.Size = new System.Drawing.Size(121, 37);
-            this.cmbMonth.TabIndex = 16;
-            this.cmbMonth.SelectedIndexChanged += new System.EventHandler(this.cmbMonth_SelectedIndexChanged);
-            // 
-            // cmbHall
-            // 
-            this.cmbHall.FormattingEnabled = true;
-            this.cmbHall.Items.AddRange(new object[] {
-            "All"});
-            this.cmbHall.Location = new System.Drawing.Point(640, 50);
-            this.cmbHall.Name = "cmbHall";
-            this.cmbHall.Size = new System.Drawing.Size(121, 37);
-            this.cmbHall.TabIndex = 17;
-            this.cmbHall.SelectedIndexChanged += new System.EventHandler(this.cmbHall_SelectedIndexChanged);
-            // 
-            // lstReservation
-            // 
-            this.lstReservation.FormattingEnabled = true;
-            this.lstReservation.ItemHeight = 29;
-            this.lstReservation.Location = new System.Drawing.Point(319, 104);
-            this.lstReservation.Name = "lstReservation";
-            this.lstReservation.Size = new System.Drawing.Size(798, 613);
-            this.lstReservation.TabIndex = 18;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(314, 53);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 29);
-            this.label1.TabIndex = 19;
-            this.label1.Text = "Month:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(549, 53);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 29);
-            this.label2.TabIndex = 20;
-            this.label2.Text = "HallID:";
-            // 
             // ManagerReservationReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LemonChiffon;
             this.ClientSize = new System.Drawing.Size(1284, 781);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lstReservation);
-            this.Controls.Add(this.cmbHall);
-            this.Controls.Add(this.cmbMonth);
             this.Controls.Add(this.groupBox2);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.Margin = new System.Windows.Forms.Padding(7);
+            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.Name = "ManagerReservationReport";
             this.Text = "ManagerReservationReport";
             this.Load += new System.EventHandler(this.ManagerReservationReport_Load);
@@ -366,7 +293,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -390,10 +316,5 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox cmbMonth;
-        private System.Windows.Forms.ComboBox cmbHall;
-        private System.Windows.Forms.ListBox lstReservation;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
     }
 }

@@ -19,8 +19,7 @@ namespace Assignment
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string username = textBox2.Text;
-            ManagerMainMenu obj = new ManagerMainMenu(username);
+            ManagerMainMenu obj = new ManagerMainMenu();
             obj.Show();
         }
 

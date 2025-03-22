@@ -167,10 +167,9 @@
             this.ClientSize = new System.Drawing.Size(1284, 781);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.Margin = new System.Windows.Forms.Padding(7);
+            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.Name = "ReservationStatus";
             this.Text = "ReservationStatus";
-            this.Load += new System.EventHandler(this.ReservationStatus_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

@@ -12,18 +12,16 @@ namespace Assignment
 {
     public partial class UpdateOwnProfile : Form
     {
-        private string username;
-        public UpdateOwnProfile(string user)
+        public UpdateOwnProfile()
         {
             InitializeComponent();
-            username = user;
-            label9.Text = username;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ManagerMainMenu obj = new ManagerMainMenu(username);
-            obj.Show();
+            this.Hide();
+            ManagerMainMenu obj = new ManagerMainMenu();
+            obj.ShowDialog();
             this.Close();
         }
 
@@ -118,23 +116,26 @@ namespace Assignment
 
         private void label11_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            ManagerMainMenu obj = new ManagerMainMenu();
+            obj.ShowDialog();
             this.Close();
-            ManagerMainMenu obj = new ManagerMainMenu(username);
-            obj.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
-            ManagerMainMenu obj = new ManagerMainMenu(username);
-            obj.Show();
+            ManagerMainMenu obj = new ManagerMainMenu();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void lblLogOut_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             LoginPage obj = new LoginPage();
-            obj.Show();
+            obj.ShowDialog();
+            this.Close();
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -149,15 +150,28 @@ namespace Assignment
 
         private void label13_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            ManagerViewMenu obj = new ManagerViewMenu();
+            obj.ShowDialog();
             this.Close();
-            ManagerViewMenu obj = new ManagerViewMenu(username);
-            obj.Show();
         }
 
         private void label12_Click(object sender, EventArgs e)
         {
-            ManagerAddMenu obj = new ManagerAddMenu(username);
-            obj.Show();
+            this.Hide();
+            ManagerAddMenu obj = new ManagerAddMenu();
+            obj.ShowDialog();
+            this.Close();
+        }
+
+        private void UpdateOwnProfile_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

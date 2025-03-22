@@ -210,7 +210,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Assignment.Properties.Resources.home_icon;
             this.pictureBox2.Location = new System.Drawing.Point(12, 104);
             this.pictureBox2.Name = "pictureBox2";

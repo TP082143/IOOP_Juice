@@ -12,12 +12,9 @@ namespace Assignment
 {
     public partial class ReservationMainMenu : Form
     {
-        private string username;
-        public ReservationMainMenu(string user)
+        public ReservationMainMenu()
         {
             InitializeComponent();
-            username = user;
-            label1.Text = username;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -30,7 +27,12 @@ namespace Assignment
 
         }
 
-        private void label11_Click(object sender, EventArgs e)
+        private void lblMenu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblHall_Click(object sender, EventArgs e)
         {
 
         }
