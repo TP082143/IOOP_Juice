@@ -86,7 +86,8 @@ namespace Assignment
                     }
                     else if (login_detail[4].TrimEnd() == "Chef")
                     {
-                                                
+                        MainMenu obj = new MainMenu();
+                        obj.ShowDialog();
                     }
                 }
                 reader.Close();
